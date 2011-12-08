@@ -16,19 +16,9 @@ namespace AjActors.Tests
 
             ActionTask<Counter> action = new ActionTask<Counter>(counter, c => { c.Increment(); });
 
-            Assert.AreEqual(0, counter.Number);
+            Assert.AreEqual(0, counter.Count);
             action.Execute();
-            Assert.AreEqual(1, counter.Number);
-        }
-
-        public class Counter
-        {
-            public int Number { get; set; }
-
-            public void Increment()
-            {
-                this.Number = this.Number + 1;
-            }
+            Assert.AreEqual(1, counter.Count);
         }
     }
 }

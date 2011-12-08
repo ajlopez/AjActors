@@ -39,7 +39,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ActionTaskTests.cs" />
+    <Compile Include="ActorTests.cs" />
     <Compile Include="BlockingQueueTests.cs" />
+    <Compile Include="Counter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
