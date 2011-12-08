@@ -36,12 +36,16 @@
     <Reference Include="System.Core">
       <RequiredTargetFramework>3.5</RequiredTargetFramework>
     </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Accumulator.cs" />
     <Compile Include="ActionTaskTests.cs" />
     <Compile Include="ActorTests.cs" />
     <Compile Include="BlockingQueueTests.cs" />
     <Compile Include="Counter.cs" />
+    <Compile Include="MessageActorTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
