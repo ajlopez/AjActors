@@ -47,6 +47,7 @@
   <ItemGroup>
     <Compile Include="ActionTask.cs" />
     <Compile Include="Actor.cs" />
+    <Compile Include="BaseActor.cs" />
     <Compile Include="BlockingQueue.cs" />
     <Compile Include="ITask.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
